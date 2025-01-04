@@ -1,4 +1,14 @@
 import './App.css';
+import githubdm from './assets/githubdm.png';
+import githublm from './assets/githublm.png';
+import linkedindm from './assets/linkedindm.png';
+import linkedinlm from './assets/linkedinlm.png';
+import preprImage from './assets/prepr.png';
+import quizImage from './assets/quiz.png';
+import starwarsImage from './assets/starwar.png';
+import weatherImage from './assets/weather.png';
+import meImage from './assets/me.1ebeee47e28fcec6e965.jpg';
+
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 export default function App() {
@@ -16,28 +26,28 @@ export default function App() {
       url: "https://ryanacham.github.io/Frontend-Developer-Challenge-3-Dashboard-and-Project-Creation/",
       github: "https://github.com/RyanAcham/Frontend-Developer-Challenge-3-Dashboard-and-Project-Creation?tab=readme-ov-file",
       tech: "Javascript, CSS, HTML, React, GitHub",
-      imageUrl: "/img/project/prepr.png",
+      imageUrl: preprImage,
     },
     "Star Wars Database": {
       description: "I was the CSS/Tailwind developer for our Star Wars Database project, which made me in charge of creating and putting into use a responsive and aesthetically pleasing user interface. Utilizing a variety of APIs, the website—which was constructed with JavaScript, HTML, CSS, React, and jQuery—offers dynamic access to information about individuals, species, and planets from the Star Wars universe. In a matter of days, I became proficient with Tailwind, utilizing its utility-first architecture to effectively style elements and smoothly integrate functions such as lightmode and darkmode. This project was centered around teamwork; I worked closely with the team to support the integration of a dynamic search system, deploy the site on GitHub Pages, and ensure consistent styling. ",
       url: "https://suedepritch.github.io/crispy-spork/",
       github: "https://github.com/SuedePritch/crispy-spork?tab=readme-ov-file",
       tech: "Javascript, HTML, CSS, React, Tailwind, jQuery, Various APIs, GitHub",
-      imageUrl: "/img/project/starwar.png",
+      imageUrl: starwarsImage,
     },
     "Weather Report": {
       description: "In this sideproject, I used HTML, CSS, and JavaScript to create a basic weather application with a responsive and slick user interface. Depending on the city typed into the search bar, the app displays important metrics like temperature, humidity, wind speed, and feels-like temperature by integrating with a weather API to retrieve real-time weather data. This project is a clear illustration of how I can combine clean front-end development techniques with dynamic APIs to create useful, user-friendly applications. ",
       url: "https://ryanacham.github.io/Weather-Report/",
       github: "https://github.com/RyanAcham/Weather-Report/tree/main",
       tech: "Javascript, CSS, HTML, Weather API, GitHub",
-      imageUrl: "/img/project/weather.png",
+      imageUrl: weatherImage,
     },
     "Coding Quiz": {
       description: "This website is an interactive coding test that uses HTML, CSS, and JavaScript to provide an enjoyable user experience. To add challenge, the quiz has a countdown timer that subtracts time for each wrong response. The logic for monitoring, adjusting the timer, and controlling the user's progress through the questions is handled by JavaScript. CSS is used to style the front-end for a responsive and clean that makes the quiz look great on all devices. The website also uses local storage to keep scores between sessions and saves high scores so users can compete with others. Through interactive features, this project keeps users interested while providing a real-world application of front-end and back-end skills.",
       url: "https://ryanacham.github.io/Coding-Quiz-Mark-II/",
       github: "https://github.com/RyanAcham/Coding-Quiz-Mark-II",
       tech: "Javascript, CSS, HTML, GitHub",
-      imageUrl: "/img/project/quiz.png",
+      imageUrl: quizImage,
     }
   };
 
@@ -267,8 +277,8 @@ export default function App() {
           <div className="flex justify-center items-center p-10">
             <div className="w-1/2">
               <img 
-                src="me.1ebeee47e28fcec6e965.jpg" 
-                alt="Example Image" 
+                src={meImage}
+                alt="me" 
                 className="max-w-[600px] h-auto object-cover" 
               />
             </div>
@@ -293,12 +303,12 @@ export default function App() {
               className="relative w-16 h-16  rounded-lg overflow-hidden shadow-lg hover:scale-105 transform transition-all duration-300"
             >
               <img
-                src="githublm.png"
+                src={githublm}
                 alt="github"
                 className="absolute top-0 left-0 w-full h-full object-cover dark:hidden"
               />
               <img
-                src="githubdm.png"
+                src={githubdm}
                 alt="github"
                 className="absolute top-0 left-0 w-full h-full object-cover hidden dark:block"
               />
@@ -310,12 +320,12 @@ export default function App() {
               className="relative w-16 h-16 rounded-lg overflow-hidden shadow-lg hover:scale-105 transform transition-all duration-300"
             >
               <img
-                src="linkedinlm.png"
+                src={linkedinlm}
                 alt="linkedin"
                 className="absolute top-0 left-0 w-full h-full object-cover dark:hidden"
               />
               <img
-                src="linkedindm.png"
+                src={linkedindm}
                 alt="linkedin"
                 className="absolute top-0 left-0 w-full h-full object-cover hidden dark:block"
               />
