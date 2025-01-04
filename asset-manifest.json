@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/ryan-portfolio-v2/static/css/main.277001fd.css",
-    "main.js": "/ryan-portfolio-v2/static/js/main.01a0d80f.js",
+    "main.js": "/ryan-portfolio-v2/static/js/main.0f3f5002.js",
     "static/js/488.bd0bff0b.chunk.js": "/ryan-portfolio-v2/static/js/488.bd0bff0b.chunk.js",
+    "static/media/starwar.png": "/ryan-portfolio-v2/static/media/starwar.db8862e1d8664a5bbc3e.png",
+    "static/media/githublm.png": "/ryan-portfolio-v2/static/media/githublm.1777e238f99dfbc6b303.png",
+    "static/media/prepr.png": "/ryan-portfolio-v2/static/media/prepr.f46dd8d945debffdc820.png",
+    "static/media/me.jpg": "/ryan-portfolio-v2/static/media/me.1ebeee47e28fcec6e965.1ebeee47e28fcec6e965.jpg",
+    "static/media/weather.png": "/ryan-portfolio-v2/static/media/weather.4d16da3784d2fbdb2f14.png",
+    "static/media/quiz.png": "/ryan-portfolio-v2/static/media/quiz.0df467b94a0072d6a55d.png",
+    "static/media/githubdm.png": "/ryan-portfolio-v2/static/media/githubdm.987334e9f782cc505f25.png",
     "index.html": "/ryan-portfolio-v2/index.html",
     "main.277001fd.css.map": "/ryan-portfolio-v2/static/css/main.277001fd.css.map",
-    "main.01a0d80f.js.map": "/ryan-portfolio-v2/static/js/main.01a0d80f.js.map",
+    "main.0f3f5002.js.map": "/ryan-portfolio-v2/static/js/main.0f3f5002.js.map",
     "488.bd0bff0b.chunk.js.map": "/ryan-portfolio-v2/static/js/488.bd0bff0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.277001fd.css",
-    "static/js/main.01a0d80f.js"
+    "static/js/main.0f3f5002.js"
   ]
 }
